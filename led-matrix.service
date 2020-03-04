@@ -1,0 +1,9 @@
+[Unit]
+Description=LED Matrix
+
+[Service]
+ExecStart=/home/pi/led_script.bash
+Restart=on-failure
+
+[Install]
+WantedBy=multi-user.target
