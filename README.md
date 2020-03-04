@@ -6,6 +6,7 @@ Requirements
 
 * Raspberry Pi - https://www.adafruit.com/product/3055
 * 32x32 RGB Matrix Panel - https://www.sparkfun.com/products/14646
+* Adafruit RGB Matrix HAT + RTC for Raspberry Pi - Mini Kit - https://www.adafruit.com/product/2345
 * 12V Power adapter - I went with a 4A power adapter I had laying around
 * 10x10 shadowbox - https://www.michaels.com/black-extra-deep-shadowbox-10x10-studio-decor/10229048.html
 * 3D printed corner mounts - https://www.thingiverse.com/thing:4200106
