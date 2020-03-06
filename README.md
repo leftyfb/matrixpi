@@ -12,6 +12,21 @@ Requirements
 * 3D printed corner mounts - https://www.thingiverse.com/thing:4200106
 * rpi-rgb-led-matrix - https://github.com/hzeller/rpi-rgb-led-matrix
 
+Optional
+--------
+
+In order to use the weather display, you'll need to sign up for an account at https://weatherstack.com and get your API key.
+
+* enter your API key and zipcode at the top of the led_matrix.bash file
+* install imagemagick
+```
+sudo apt install imagemagick
+```
+* install webp
+```
+sudo apt install webp
+```
+
 Instructions
 ------------
 * You'll have to build/install rpi-rgb-led-matrix using the instructions provided with the project.
