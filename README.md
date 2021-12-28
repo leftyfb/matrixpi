@@ -26,6 +26,10 @@ sudo apt install imagemagick
 ```
 sudo apt install webp
 ```
+* install jq
+```
+sudo apt install jq
+```
 
 Instructions
 ------------

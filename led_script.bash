@@ -21,7 +21,7 @@ weather(){
 	[ -v $api_key ] && return 0
 	[ -v $zipcode ] && return 0
         # grab temperature and weather icon every hour
-        if [ $cur_hour != $prev_hour ] ; then
+        if [ $cur_hour != $prev_hour ] && (( $cur_hour % 3 == 0 )) ; then
 		[ -f $weather_icons/temperature.png ] && rm $weather_icons/temperature.png
 		[ -f $weather_icons/out.png ] && rm $weather_icons/out.png
                 echo "time changed .... time to do things ...."
