@@ -2,7 +2,7 @@
 Description=LED Matrix
 
 [Service]
-ExecStart=/home/pi/led_script.bash
+ExecStart=/home/pi/matrixpi/led_script.bash
 Restart=on-failure
 
 [Install]
